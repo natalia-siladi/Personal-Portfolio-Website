@@ -1,6 +1,8 @@
 body {
   font-family: sans-serif;
   color: black;
+  display: flex;
+  justify-content: center;
 }
 h1 {
   font-weight: bold;
@@ -56,10 +58,9 @@ ul {
 .main-container {
   gap: 40px;
   display: flex;
-  flex-direction: row-reverse;
-  width: 1200px;
+  flex-direction: row;
   background-color: #fff;
-  margin: 40px auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 .project-role {
   margin-top: 12px;
@@ -67,4 +68,34 @@ ul {
 }
 .technologies {
   color: gray;
+}
+/* sidebar */
+.sidebar-list {
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+.list-item {
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+.contacts {
+  display: inline;
+}
+.contact-link {
+  color: #fff;
+  display: flex;
+}
+.sidebar-icon {
+  fill: #fff;
+  margin-right: 12px;
+}
+.sidebar-icon svg {
+  font-size: 18px;
+}
+.contact-item {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.contacts-heading {
+  margin-bottom: 30px;
 }
