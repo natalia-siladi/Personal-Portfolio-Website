@@ -102,3 +102,15 @@ ul {
 .main-section {
   width: 600px;
 }
+/*table*/
+table caption {
+  text-align: left;
+}
+table {
+  border-collapse: collapse;
+}
+table th,
+table td {
+  padding: 10px;
+  border: 2px solid #2a2a2a;
+}
